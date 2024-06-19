@@ -3,7 +3,7 @@ import requests
 
 app = Flask(__name__)
 
-TMDB_API_KEY = 'YOUR_TMDB_API_KEY'
+TMDB_API_KEY = '5a0316d325fa79bd1595723c01abbad7'
 
 @app.route('/recommend', methods=['GET'])
 def recommend():
